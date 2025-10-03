@@ -1,8 +1,8 @@
 void main() {
   List<Map<String, dynamic>> users = [
     {
-      'name': 'Alice',
-      'age': 25,
+      'name': 'zain',
+      'age': 20,
       'posts': [
         {'title': 'Hello World', 'likes': 10},
         {'title': 'Dart is fun', 'likes': 20},
@@ -22,6 +22,6 @@ void main() {
     }
   ];
 
-  print(processUserData(users)); // Output: Alice
+  print(processUserData(users)); // Output: zain
 }
 // 
